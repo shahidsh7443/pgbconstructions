@@ -1,0 +1,466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TheBuilt Theme Addons Plugin\n"
+"POT-Creation-Date: 2016-10-19 17:22+0200\n"
+"PO-Revision-Date: 2016-10-19 17:22+0200\n"
+"Last-Translator: dedalx <dedalx.rus@gmail.com>\n"
+"Language-Team: MagniumThemes <support@magniumthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../thebuilt-theme-addons.php:75 ../thebuilt-theme-addons.php:76
+msgid "Clients reviews"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:78 ../thebuilt-theme-addons.php:81
+msgid "Add review"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:79 ../thebuilt-theme-addons.php:102
+msgid "Not found"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:80
+msgid "No clients reviews found in trash"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:82
+msgid "All client reviews"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:98 ../thebuilt-theme-addons.php:99
+msgid "Portfolio"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:101 ../thebuilt-theme-addons.php:104
+msgid "Add New item"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:103
+msgid "No Portfolio items found in trash"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:105
+msgid "All Portfolio items"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:143
+msgid "Client photo/logo"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:157
+msgid "Portfolio grid item image"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:170
+msgid "Portfolio item page details and settings"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:195
+msgid "Short description: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:206
+msgid ""
+"Hide portfolio details (Project url, Client, Location, Area, Value, Date, "
+"Architect, Category)"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:211
+msgid "Project url: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:220
+msgid "Client: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:228
+msgid "Location: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:236
+msgid "Surface area: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:244
+msgid "Value: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:252
+msgid "Completed date: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:260
+msgid "Architect: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:268
+msgid "Layout: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:273
+msgid "Normal image size, description at the right"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:277
+msgid "Full width image size, description at the bottom"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:285
+msgid "Disable slider for this item images (show images in column)"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:293
+msgid "Show item images or slider fullwidth (liquid)"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:301
+msgid "Use original images sizes for all item images (don't crop images)"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:310
+msgid "Don't show 'Portfolio grid item image' on item page"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:319
+msgid "Disable social share counters and buttons on this item page"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:337
+msgid "Title position: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:339
+msgid "Page title"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:340
+msgid "Before description and details"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:341
+msgid "Disable title"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:346
+msgid "Page background color: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:372
+msgid "Sidebar position: "
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:374
+msgid "Use theme control panel settings"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:375
+msgid "Left"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:376
+msgid "Right"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:377
+msgid "Disable sidebar"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:388
+msgid ""
+"Show transparent header with light logo and white menus under page content. "
+"Use this if you have fullwidth image or slider at the page start (header "
+"will be displayed above your image)."
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:568
+msgid "Portfolio images/photos"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:576
+msgid "Portfolio images<br>"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:577
+msgid ""
+"Use this field to add your images for portfolio item. Use SHIFT/CTRL "
+"keyboard buttons to select multiple images."
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:596
+msgid "Client Review settings"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:604
+msgid "Reviewer title"
+msgstr ""
+
+#: ../thebuilt-theme-addons.php:605
+msgid "Reviewer title or description"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/init.php:185
+msgid "Import Revolution sliders ..."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/init.php:197
+msgid "Slider was not imported due to error."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/init.php:199
+msgid "Slider imported."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/init.php:209
+msgid "Revolution slider plugin not installed."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/parsers.php:42
+#: ../inc/oneclick-demo-import/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/parsers.php:67
+#: ../inc/oneclick-demo-import/importer/parsers.php:72
+#: ../inc/oneclick-demo-import/importer/parsers.php:262
+#: ../inc/oneclick-demo-import/importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:420
+msgid "Import Again"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:424
+msgid "Import Demo Data"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:712
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:770
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:843
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:865
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:888
+msgid "Widget already exists"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:937
+msgid "Imported"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:940
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/radium-importer.php:947
+msgid "No Title"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:142
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:151
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:202
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:206
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:215
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:143
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:186
+msgid "All done."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:186
+msgid "Have fun!"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:187
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:207
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:223
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:248
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:277
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:332
+msgid "- Select -"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:382
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:431
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:469
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:535
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:556
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:611
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:758
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:765
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:951
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:964
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:997
+msgid "Invalid file type"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:993
+msgid "Empty filename"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1023
+#, php-format
+msgid ""
+"Unable to create directory %s. Is its parent directory writable by the "
+"server?"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1029
+#, php-format
+msgid "Could not write file %s"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1074
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1080
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1092
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1098
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1197
+msgid "Import WordPress"
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1211
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../inc/oneclick-demo-import/importer/wordpress-importer.php:1212
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../inc/shortcodes/visual-composer/mgt-pricing-table.php:489
+#: ../inc/shortcodes/visual-composer/mgt-promo-block.php:628
+msgid "Css"
+msgstr ""
+
+#: ../inc/shortcodes/visual-composer/mgt-pricing-table.php:491
+#: ../inc/shortcodes/visual-composer/mgt-promo-block.php:630
+msgid "Content Design options"
+msgstr ""
+
+#: ../inc/shortcodes/wp/mgt-portfolio-grid-wp.php:125
+msgid ""
+"You does not have projects to display for current MGT Portfolio Grid element "
+"settings."
+msgstr ""
+
+#: ../inc/shortcodes/wp/mgt-portfolio-grid-wp.php:208
+msgid "View more"
+msgstr ""
+
+#: ../inc/shortcodes/wp/mgt-post-list-wp.php:144
+msgid "Read more"
+msgstr ""
+
+#: ../inc/shortcodes/wp/mgt-signup-block-wp.php:29
+msgid "Input your email"
+msgstr ""
