@@ -5806,6 +5806,16 @@ a.pp_expand {
     -webkit-transition: none;
 }
 /******************************My CSS********************************************/
+.os3 .mgt-promo-block-content-inside {
+    min-height: 285px;
+}
+.vc_custom_1517581102105
+{
+  display: none;
+}
+.vc_custom_1519992604639 {
+    padding: 20px;
+}
 .serv .mgt-button-wrapper
 {
   visibility: hidden;
@@ -5865,7 +5875,7 @@ a.pp_expand {
 }
 .vc_custom_1465983521264 .vc_column-inner
 {
-  min-height: 458px;
+  min-height: 481px;
 }
 .vc_custom_1465983521264
 {
@@ -5885,7 +5895,7 @@ a.pp_expand {
   border: 1px solid #ddd;
   box-shadow: 15px 15px 20px;
   width: 90% !important;
-  min-height: 396px;
+  min-height: 465px;
 }
 .works p
 {
