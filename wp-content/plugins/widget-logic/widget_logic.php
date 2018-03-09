@@ -148,7 +148,7 @@ function widget_logic_expand_control()
 	// IMPORT ALL OPTIONS
 	if ( isset($_POST['wl-options-import']))
 	{	if ($_FILES['wl-options-import-file']['tmp_name'])
-		{	$import=explode("\n",file__get_contents($_FILES['wl-options-import-file']['tmp_name'], false));
+		{	$import=explode("\n",file_get_contents($_FILES['wl-options-import-file']['tmp_name'], false));
 			if (array_shift($import)=="[START=WIDGET LOGIC OPTIONS]" && array_pop($import)=="[STOP=WIDGET LOGIC OPTIONS]")
 			{	foreach ($import as $import_option)
 				{	list($key, $value)=explode("\t",$import_option);

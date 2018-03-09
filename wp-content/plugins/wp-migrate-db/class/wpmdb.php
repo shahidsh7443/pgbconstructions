@@ -515,7 +515,7 @@ class WPMDB extends WPMDB_Base {
 		echo "\r\n";
 
 		echo 'cURL: ';
-		if ( function_exists( 'curl__init' ) ) {
+		if ( function_exists( 'curl_init' ) ) {
 			echo 'Enabled';
 		} else {
 			echo 'Disabled';

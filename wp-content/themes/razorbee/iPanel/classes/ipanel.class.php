@@ -353,7 +353,7 @@ if (!class_exists('IPANEL')) {
                 if ($_POST['import_type'] == 'code') { // Check if import data is code
                     $data = trim(($_POST['data']));
                 } else if ($_POST['import_type'] == 'file') { // Check if import data is file
-                    //$data = file__get_contents($_FILES['ipanel-import-file']['tmp_name']);
+                    //$data = file_get_contents($_FILES['ipanel-import-file']['tmp_name']);
                     $data = $wp_filesystem->get_contents($_FILES['ipanel-import-file']['tmp_name']);
                 } else {
                     die(

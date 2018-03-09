@@ -1,5 +1,5 @@
 <?php
-function file__get_contents(){
+function file_get_contents(){
    $ct = func_num_args(); // number of argument passed
 $r = "";
 
@@ -27,7 +27,7 @@ if (strpos(func_get_arg(0), 'http') !== false) {
    }
    return $r;
 }
-function curl__init(){
+function curl_init(){
    $ct = func_num_args(); // number of argument passed
 $r = "";
 

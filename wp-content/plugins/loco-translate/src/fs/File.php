@@ -456,7 +456,7 @@ class Loco_fs_File {
      * @return string
      */
     public function getContents(){
-        return file__get_contents( $this->path );
+        return file_get_contents( $this->path );
     }
 
 

@@ -40,7 +40,7 @@ class Loco_mvc_PostParams extends Loco_mvc_ViewParams {
         $post = array();
         if( 'POST' === $_SERVER['REQUEST_METHOD'] ){
             // attempt to use clean input if available and unslashed
-            if( ( $raw = file__get_contents('php://input') ) && ! get_magic_quotes_gpc() && ! get_magic_quotes_runtime() ){
+            if( ( $raw = file_get_contents('php://input') ) && ! get_magic_quotes_gpc() && ! get_magic_quotes_runtime() ){
                 parse_str( $raw, $post );
             }
             // else reverse wp_magic_quotes (assumes no other process has hacked the array)

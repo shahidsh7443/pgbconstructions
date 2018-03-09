@@ -433,9 +433,9 @@ define('SIMPLEPIE_FILE_SOURCE_FSOCKOPEN', 4);
 define('SIMPLEPIE_FILE_SOURCE_CURL', 8);
 
 /**
- * file__get_contents() file source
+ * file_get_contents() file source
  */
-define('SIMPLEPIE_FILE_SOURCE_file__get_contents', 16);
+define('SIMPLEPIE_FILE_SOURCE_file_get_contents', 16);
 
 
 
