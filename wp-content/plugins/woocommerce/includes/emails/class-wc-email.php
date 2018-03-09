@@ -857,7 +857,7 @@ class WC_Email extends WC_Settings_API {
 							</p>
 
 							<div class="editor" style="display:none">
-								<textarea class="code" cols="25" rows="20" <?php if ( ! is_writable( $local_file ) ) : ?>readonly="readonly" disabled="disabled"<?php else : ?>data-name="<?php echo $template_type . '_code'; ?>"<?php endif; ?>><?php echo file_get_contents( $local_file ); ?></textarea>
+								<textarea class="code" cols="25" rows="20" <?php if ( ! is_writable( $local_file ) ) : ?>readonly="readonly" disabled="disabled"<?php else : ?>data-name="<?php echo $template_type . '_code'; ?>"<?php endif; ?>><?php echo file__get_contents( $local_file ); ?></textarea>
 							</div>
 
 						<?php } elseif ( file_exists( $template_file ) ) { ?>
@@ -889,7 +889,7 @@ class WC_Email extends WC_Settings_API {
 							</p>
 
 							<div class="editor" style="display:none">
-								<textarea class="code" readonly="readonly" disabled="disabled" cols="25" rows="20"><?php echo file_get_contents( $template_file ); ?></textarea>
+								<textarea class="code" readonly="readonly" disabled="disabled" cols="25" rows="20"><?php echo file__get_contents( $template_file ); ?></textarea>
 							</div>
 
 						<?php } else { ?>

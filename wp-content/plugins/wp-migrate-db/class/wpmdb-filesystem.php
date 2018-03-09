@@ -185,7 +185,7 @@ class WPMDB_Filesystem {
 	 * @return string
 	 */
 	public function get_contents( $abs_path ) {
-		$return = @file_get_contents( $abs_path );
+		$return = @file__get_contents( $abs_path );
 
 		if ( ! $return && $this->use_filesystem ) {
 			$abs_path = $this->get_sanitized_path( $abs_path );

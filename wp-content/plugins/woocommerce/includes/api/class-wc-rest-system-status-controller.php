@@ -616,7 +616,7 @@ class WC_REST_System_Status_Controller extends WC_REST_Controller {
 			'max_upload_size'           => wp_max_upload_size(),
 			'mysql_version'             => ( ! empty( $wpdb->is_mysql ) ? $wpdb->db_version() : '' ),
 			'default_timezone'          => date_default_timezone_get(),
-			'fsockopen_or_curl_enabled' => ( function_exists( 'fsockopen' ) || function_exists( 'curl_init' ) ),
+			'fsockopen_or_curl_enabled' => ( function_exists( 'fsockopen' ) || function_exists( 'curl__init' ) ),
 			'soapclient_enabled'        => class_exists( 'SoapClient' ),
 			'domdocument_enabled'       => class_exists( 'DOMDocument' ),
 			'gzip_enabled'              => is_callable( 'gzopen' ),

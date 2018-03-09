@@ -198,7 +198,7 @@ class WC_Tracker {
 		$server_data['php_default_timezone'] = date_default_timezone_get();
 		$server_data['php_soap'] = class_exists( 'SoapClient' ) ? 'Yes' : 'No';
 		$server_data['php_fsockopen'] = function_exists( 'fsockopen' ) ? 'Yes' : 'No';
-		$server_data['php_curl'] = function_exists( 'curl_init' ) ? 'Yes' : 'No';
+		$server_data['php_curl'] = function_exists( 'curl__init' ) ? 'Yes' : 'No';
 
 		return $server_data;
 	}

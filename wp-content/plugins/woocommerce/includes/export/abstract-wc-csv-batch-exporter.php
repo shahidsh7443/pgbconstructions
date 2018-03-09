@@ -57,7 +57,7 @@ abstract class WC_CSV_Batch_Exporter extends WC_CSV_Exporter {
 	public function get_file() {
 		$file = '';
 		if ( @file_exists( $this->file ) ) {
-			$file = @file_get_contents( $this->file );
+			$file = @file__get_contents( $this->file );
 		} else {
 			@file_put_contents( $this->file, '' );
 			@chmod( $this->file, 0664 );

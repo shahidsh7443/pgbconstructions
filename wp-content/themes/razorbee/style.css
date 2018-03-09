@@ -5806,6 +5806,9 @@ a.pp_expand {
     -webkit-transition: none;
 }
 /******************************My CSS********************************************/
+.vc_custom_1516493590411 a {
+    color: navy !important;
+}
 .os3 .mgt-promo-block-content-inside {
     min-height: 285px;
 }
@@ -5955,9 +5958,13 @@ a.pp_expand {
 {
   display: none;
 }
-.mgt-promo-block
+.os2 .mgt-promo-block
 {
-  min-height: 230px;
+  min-height: 335px;
+}
+.os3 .mgt-promo-block
+{
+  min-height: 335px;
 }
 .mgt-promo-block-content-inside
 {

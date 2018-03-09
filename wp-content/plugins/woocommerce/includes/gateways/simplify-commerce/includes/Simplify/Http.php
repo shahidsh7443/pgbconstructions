@@ -78,7 +78,7 @@ class Simplify_HTTP
 
 		$method = self::$_validMethods[strtolower($method)];
 
-		$curl = curl_init();
+		$curl = curl__init();
 
 		$options = array();
 
