@@ -635,7 +635,7 @@ class WPMDB_Base {
 		}
 
 		$filetype = wp_check_filetype( $file );
-		$contents = file_get_contents( $file );
+		$contents = file__get_contents( $file );
 
 		$result .= '--' . $this->multipart_boundary . "\r\n" . sprintf( 'Content-Disposition: form-data; name="media[]"; filename="%s"', basename( $file ) );
 		$result .= sprintf( "\r\nContent-Type: %s", $filetype['type'] );
@@ -1021,7 +1021,7 @@ class WPMDB_Base {
 		}
 
 		// The $response['body'] is blank but output is actually saved to a file in this case
-		$data = @file_get_contents( $response['filename'] );
+		$data = @file__get_contents( $response['filename'] );
 
 		if ( ! $data ) {
 			return new WP_Error( 'wpmdbpro_download_error_empty', sprintf( __( 'Error retrieving download from deliciousbrain.com. Please try again or download manually from <a href="%1$s">%2$s</a>.', 'wp-migrate-db' ), 'https://deliciousbrains.com/my-account/?utm_campaign=error%2Bmessages&utm_source=MDB%2BPaid&utm_medium=insideplugin', _x( 'My Account', 'Delicious Brains account', 'wp-migrate-db' ) ) );

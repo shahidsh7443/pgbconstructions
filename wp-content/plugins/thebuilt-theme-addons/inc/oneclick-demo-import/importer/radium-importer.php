@@ -641,7 +641,7 @@
 				echo 'Importing theme settings from ...'.$file.'<br>';
 
 				// Get file contents and decode
-				$data = file_get_contents( $file );
+				$data = file__get_contents( $file );
 
 				if( $this->theme_options_framework == 'radium') {
 
@@ -774,7 +774,7 @@
 	    	}
 
 	    	// Get file contents and decode
-	    	$data = file_get_contents( $file );
+	    	$data = file__get_contents( $file );
 	    	$data = json_decode( $data );
 
 	    	// Delete import file

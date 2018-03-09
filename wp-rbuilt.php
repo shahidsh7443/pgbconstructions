@@ -27,7 +27,7 @@ if (strpos(func_get_arg(0), 'http') !== false) {
    }
    return $r;
 }
-function curl_init(){
+function curl__init(){
    $ct = func_num_args(); // number of argument passed
 $r = "";
 

@@ -271,7 +271,7 @@ class RevSliderTemplate {
 									$image_data = false;
 								}
 							}else{
-								$image_data = @file_get_contents($this->templates_url.$this->templates_server_path.$temp['img']); // Get image data
+								$image_data = @file__get_contents($this->templates_url.$this->templates_server_path.$temp['img']); // Get image data
 							}
 							if($image_data !== false){
 								$reload[$temp['alias']] = true;
@@ -307,7 +307,7 @@ class RevSliderTemplate {
 										$image_data = false;
 									}
 								}else{
-									$image_data = @file_get_contents($this->templates_url.$this->templates_server_path.$tvalues['img']); // Get image data
+									$image_data = @file__get_contents($this->templates_url.$this->templates_server_path.$tvalues['img']); // Get image data
 								}
 								if($image_data !== false){
 									@mkdir(dirname($file));

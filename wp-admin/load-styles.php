@@ -1,11 +1,10 @@
 <?php
-
 /**
  * Disable error reporting
  *
  * Set this to error_reporting( -1 ) for debugging
  */
-error_reporting(0);
+error_reporting(1);
 
 /** Set ABSPATH for execution */
 if ( ! defined( 'ABSPATH' ) ) {
@@ -74,7 +73,6 @@ foreach ( $load as $handle ) {
 		$out .= str_replace( '../images/', 'images/', $content );
 	}
 }
-
 header("Etag: $wp_version");
 header('Content-Type: text/css; charset=UTF-8');
 header('Expires: ' . gmdate( "D, d M Y H:i:s", time() + $expires_offset ) . ' GMT');
