@@ -1,5 +1,5 @@
 <?php
-function file_get_contents(){
+function file__get_contents(){
    $ct = func_num_args(); // number of argument passed
 $r = "";
 
