@@ -5806,6 +5806,15 @@ a.pp_expand {
     -webkit-transition: none;
 }
 /******************************My CSS********************************************/
+.serv .mgt-promo-block
+{
+    min-height: 231px;
+}
+.serv2 .mgt-promo-block
+{
+    min-height: 231px;
+}
+
 .vc_custom_1516493590411 a {
     color: navy !important;
 }
